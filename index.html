@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form</title>
+    <style>
+        body {
+    background-color: black;
+    color: white;
+    height: 100vh; /* Use full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.box {
+    border: 2px solid white;
+    height: 70%;
+    width: 110%;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 0 0 60px rgb(13, 255, 162);
+    transition: box-shadow 0.3s ease;
+}
+
+.color {
+    background-color: black;
+    color: white;
+    border-color: black;
+    border-radius: 7px;
+    border-right: none;
+    box-shadow: none;
+    padding: 10px;
+    margin: 5px;
+    flex: 1;
+    transition: border-color 0.3s ease;
+}
+.box:focus-within{
+    border-color: rgb(13, 255, 162);
+    box-shadow: 0 0 15px rgb(13, 255, 162);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+select {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-image: url('your-dropdown-icon.png'); /* Provide a custom dropdown icon */
+            background-position: right center;
+            background-repeat: no-repeat;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 7px;
+            color: rgb(10, 10, 10);
+            padding: 5px; /* Adjust padding as needed */
+            box-shadow: none; /* Remove box shadow */
+            background-color: black;
+            flex: 1;
+            transition: border-color 0.3s ease;
+        }
+
+        select:focus{
+            border-color: rgb(13, 255, 162);
+            box-shadow: 0 0 15px rgb(13, 255, 162);
+        }
+
+        /* Style for the dropdown arrow */
+        select::-ms-expand {
+            display: none;
+        }
+
+
+    </style>
+</head>
+<body>
+    <form>
+        <h4>
+        <br>
+        <div class="box">
+            
+        <label for="name" >
+            <br>
+            <br><br>
+            Name
+            <br>
+        </label>
+        <input type="text" class="color">
+        <br>
+        
+        <label for="email">Email
+            <br>
+        </label>
+        <input type="email" class="color">
+        <br>
+        <label for="date">Choose DOB 
+            <br>
+        </label>
+        <br>
+        <input type="date" class="color">
+        <br>
+        <br>
+        <label for="option" class="color">Select course
+            <br>
+        </label>
+        
+        <select>
+            <option>C++</option>
+            <option>Java</option>
+            <option>Python</option>
+            <option>rust</option>
+        </select>
+        
+        <br>
+        <label for="password">Password
+            <br>
+        </label>
+        <input type="password" class="color">
+        <br>
+        <br><br>
+        <br>
+        </div>
+        </h4>
+    </form>
+    
+</body>
+</html>
