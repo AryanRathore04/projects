@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.apt{
+    /* postio */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* flex-direction: row; */
+    font-size: 18px;
+    margin-right: 40px;
+}
+.apt span{
+    margin-right: 10px;
+}
+.icons{
+    font-size: 30px;
+    margin-left: 100px;
+    
+}
+.icons i{
+    margin-right: 13px;
+}
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(240,150,24);
+    margin: 0;
+    padding: 10px;
+}
+.right_head{
+    display: flex;
+    /* margin-left: 10px; */
+    margin-right: 100px;
+}
