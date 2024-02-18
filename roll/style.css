@@ -1,0 +1,27 @@
+body {
+    cursor: none;
+     /* Hide the default cursor */
+     background-color: black;
+     color: #fff;
+}
+
+.custom-cursor {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    opacity: 10000;
+    background-color: transparent;
+    border: 2.6px solid #fff;
+    position: absolute;
+    pointer-events: none; /* Ensure cursor doesn't interfere with pointer events */
+    transform: translate(-50%, -50%);
+    transition: all 0.1s ease;
+    z-index: 9999; /* Ensure cursor is on top of other elements */
+}
+
+/* Add any custom styling to the cursor here */
+.custom-cursor:hover{
+    height: 50px;
+    width: 50px;
+    
+}

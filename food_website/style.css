@@ -1,40 +1,646 @@
-*{
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:wght@200;400;600&family=Roboto:wght@900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: black;
-    color: white;
+body {
+  background-color: black;
+  color: white;
 }
-.apt{
-    /* postio */
-    display: flex;
-    justify-content: start;
+.apt {
+  /* postio */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* flex-direction: row; */
+  font-size: 18px;
+  margin-right: 35px;
+  font-family: Ubuntu;
+  /* margin-left: px; */
+}
+.apt2 {
+  /* postio */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* flex-direction: row; */
+  font-size: 18px;
+  margin-right: 35px;
+  font-family: Ubuntu;
+  /* margin-left: px; */
+}
+.apt span {
+  margin-right: 10px;
+}
+.apt2 span {
+  margin-right: 10px;
+}
+.icons {
+  font-size: 30px;
+  margin-left: 1px;
+}
+.icons i {
+  margin-right: 13px;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(240, 150, 24);
+  margin: 0;
+  padding: 8px;
+  box-shadow: 20px 20px 50px rgb(0, 0, 0);
+  /* height: 100%; */
+}
+.right_head {
+  display: flex;
+  /* margin-left: 10px; */
+  margin-right: 70px;
+  margin-left: 10px;
+}
+.header2 {
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-top: 15px; */
+  padding-top: 10px;
+}
+.home {
+  display: flex;
+  align-items: center;
+  margin-right: -140px;
+  margin-left: 71px;
+  width: 438px;
+  justify-content: space-evenly;
+  font-size: 18px;
+  font-family: ubuntu;
+}
+.search {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.search .in_search {
+  padding: 10px;
+}
+.button {
+  height: 49px;
+  width: 144px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: 2px solid rgb(240, 150, 24);
+  border-radius: 13px;
+  margin-right: 40px;
+  margin-top: 10px;
+  background-color: rgb(240, 150, 24);
+  font-family: ubuntu;
+  font-weight: -lighter;
+}
+.spy .spiced {
+  padding: 2px;
+  font-size: 18px;
+  /* letter-spacing: 20px; */
+  margin-left: 70px;
+}
+.spy .spiced h1 {
+  letter-spacing: 5px;
+}
+.spy .spiced h2 {
+  letter-spacing: 10px;
+  font-size: 20px;
+}
+.page1 {
+  background-color: rgb(89, 117, 24);
+  margin: 0;
+  padding: 0;
+  /* height: 100%; */
+  height: 140vh;
+}
+.front_bite {
+  height: 100%;
+  width: 100%;
+}
+.left_bite {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 22px;
+  position: absolute;
+  left: 230px;
+  top: 270px;
+  height: 400px;
+  width: 360px;
+}
+.left_bite h1 {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 4px 4px 4px rgb(48, 48, 48);
+}
+.left_bite p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.right_bite {
+  position: absolute;
+  top: 170px;
+  right: 70px;
+}
+#blow {
+  color: rgb(240, 150, 24);
+  font-size: 45px;
+}
+.front_bite .left_bite h1 {
+  line-height: 1.2;
+}
+.button2 button {
+  height: 49px;
+  width: 144px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: 2px solid rgb(255 255 255);
+  border-radius: 13px;
+  color: rgb(240, 150, 24);
+  font-size: 19px;
+  font-weight: bold;
+  margin-right: 24px;
+  margin-top: 10px;
+  background-color: rgb(255 254 253);
+  font-family: ubuntu;
+  box-shadow: 3px 3px 3px 3px #5d5d5d;
+}
+.button2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+}
+.button2 #diff {
+  height: 49px;
+  width: 144px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: 2px solid rgb(255 255 255);
+  border-radius: 13px;
+  color: rgb(253, 253, 253);
+  font-size: 19px;
+  /* font-weight: bold; */
+  margin-right: 24px;
+  margin-top: 10px;
+  background-color: rgb(89, 117, 24);
+  /* font-family: ubuntu; */
+}
+.page2 {
+  background-color: rgb(253, 253, 253);
+  margin: 0;
+  padding: 0;
+  /* height: 100%; */
+  height: 160vh;
+}
+.Catagory {
+  height: 50px;
+  width: 100%;
+  color: rgb(240, 150, 24);
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  padding-top: 68px;
+}
+.inner_menu {
+  height: 230px;
+  width: 230px;
+  /* background-color: blue; */
+}
+#burger {
+  color: black;
+  font-size: 91px;
+}
+.inner_menu {
+  /* display: flex; */
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* gap: 2rem; */
+  position: relative;
+  top: 56px;
+  font-family: Noto Sans;
+}
+.bliss {
+  color: rgb(89, 117, 24);
+  font-size: 25px;
+}
+.topped {
+  color: black;
+  padding-top: 12px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.menu {
+  height: 328px;
+  width: 1369px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 40px; */
+  gap: 2rem;
+}
+.deals {
+  /* position: relative;
+    top: 109px;
+    left: 178px; */
+  height: 300px;
+  width: 600px;
+}
+.deals img {
+  height: 322px;
+  width: 586px;
+  border-radius: 30px;
+  /* opacity: 0.7; */
+  filter: brightness(70%);
+  box-shadow: 5px 5px 7px #dddddd;
+}
+.text_deals {
+  position: relative;
+  bottom: 293px;
+  left: 279px;
+  font-size: 24px;
+  font-family: Noto Sans;
+  color: rgb(245, 241, 241);
+}
+.deals2 img {
+  /* position: absolute;
+  right: 50px; */
+  height: 322px;
+  width: 419px;
+  /* object-fit: none; */
+  border-radius: 30px;
+  filter: brightness(70%);
+  box-shadow: 5px 5px 7px #dddddd;
+}
+
+.all_deals {
+  margin-top: 97px;
+  margin-left: 170px;
+  display: flex;
+  gap: 0.7rem;
+}
+.deals2 .text_deals2 {
+  position: relative;
+  bottom: 300px;
+  left: 10px;
+  font-size: 24px;
+  font-family: Noto Sans;
+  color: rgb(245, 241, 241);
+  text-align: center;
+}
+.page3{
+  height: 165vh;
+  background-color: rgb(240, 150, 24);
+
+}
+.popular h1{
+  display: flex;
+  justify-content: center;
+  /* margin-top: 30px; */
+  padding-top: 45px;
+  font-family: Noto Sans;
+  font-size: 43px;
+  font-weight: 850;
+
+}
+.options{
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 55px;
+}
+.name{
+  display: flex;
+    justify-content: center;
+    text-align: center;
     align-items: center;
-    /* flex-direction: row; */
-    font-size: 18px;
-    margin-right: 40px;
-}
-.apt span{
-    margin-right: 10px;
-}
-.icons{
-    font-size: 30px;
-    margin-left: 100px;
+    height: 56px;
+    width: 156px;
+    border-radius: 40px;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: Noto Sans;
+    background-color: rgb(89, 117, 24);
+    box-shadow: 5px 5px 7px #92764c;
     
 }
-.icons i{
-    margin-right: 13px;
+.card{
+  height: 331px;
+  width: 308px;
+  background-color: white;
+  border-top-right-radius: 23px;
+    border-top-left-radius: 23px;
+    box-shadow: 5px 5px 7px #92764c;
 }
-.header{
-    position: relative;
+.uper_card img{
+      height: 217px;
+    width: 308px;
+    border-top-right-radius: 23px;
+    border-top-left-radius: 23px;
+}
+.dollor{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3px;
+  /* text-align: center; */
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.tex{
+      display: flex;
+    color: black;
+    font-size: 11px;
+    margin-top: 3px;
+    align-items: center;
+    justify-content: center;
+    font-family: Noto Sans;
+
+}
+.dishes{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.dishes2{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.page4{
+  height: 165vh;
+  background-color: #fdfdfd;
+}
+.page4 .about{
+  color: rgb(240, 150, 24);
     display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    font-weight: 900;
+    font-size: 27px;
+    font-family: Noto Sans;
+}
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 74px;
+  margin-right: 68px;
+    margin-left: 68px;
+}
+.left_img{
+  height: 735px;
+    width: 511px;
+  /* background-color: brown; */
+  box-shadow: 10px 10px 12px #a7a2a2;
+
+}
+.left_img img{
+height: 735px;
+    width: 511px;
+}
+.chef{
+  color: rgb(89, 117, 24);
+  font-family: Noto Sans;
+  font-weight: 900 ;
+  font-size: 40px;
+
+}
+.right_contant{
+height: 513px;
+    width: 386px;
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
-    background-color: rgb(240,150,24);
-    margin: 0;
-    padding: 10px;
+    line-height: 2;
+    
 }
-.right_head{
+.contained{
+  font-family: Noto Sans;
+  color: black;
+  /* text-align: center; */
+  font-size: 18px;
+}
+.button4{
+ height: 67px;
+    width: 206px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    align-items: center;
+    justify-content: center;
     display: flex;
-    /* margin-left: 10px; */
-    margin-right: 100px;
+    border: 2px solid rgb(240, 150, 24);
+    border-radius: 9px;
+    /* margin-right: 40px; */
+    /* margin-top: 10px; */
+    background-color: rgb(240, 150, 24);
+    font-family: ubuntu;
+      box-shadow: 10px 10px 12px #a7a2a2;
+}
+.page5{
+  height: 158vh;
+  background-color: #ebebeb;
+}
+.Your_name{
+ width: 498px;
+    border-radius: 13px;
+    height: 63px;
+    border: 1px solid #9d9d9d;
+    background-color: #ebebeb;
+    color: black;
+}
+.Your_name::placeholder{
+  color: black;
+  font-size: 20px;
+  /* margin-left: 40px; */
+  padding-left: 30px;
+}
+.contact{
+  color: rgb(240, 150, 24);
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    font-weight: 900;
+    font-size: 47px;
+    font-family: Noto Sans;
+    letter-spacing: -1px;
+}
+.form1{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.form2{
+  display: flex;
+  /* gap: 2rem; */
+  justify-content: center;
+  margin-top: 3rem;
+}
+.subject{
+  width: 1030px;
+    border-radius: 13px;
+    height: 63px;
+    border: 1px solid #9d9d9d;
+    background-color: #ebebeb;
+    color: black;
+}
+.subject::placeholder{
+  color: black;
+  font-size: 20px;
+  /* margin-left: 40px; */
+  padding-left: 30px;
+}
+.form3{
+  display: flex;
+  /* gap: 2rem; */
+  justify-content: center;
+  margin-top: 3rem;
+}
+.message{
+  width: 1030px;
+    border-radius: 13px;
+    height: 248px;
+    border: 1px solid #9d9d9d;
+    background-color: #ebebeb;
+    color: black;
+}
+.message::placeholder{
+  position: absolute;
+  top: 30px;
+  color: black;
+  font-size: 20px;
+  /* margin-left: 40px; */
+  padding-left: 30px;
+}
+.button5{
+  height: 67px;
+    width: 206px;
+    text-align: center;
+    position: relative;
+    top: 56px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 2px solid rgb(89, 117, 24);
+    border-radius: 9px;
+    /* margin-right: 40px; */
+    /* margin-top: 10px; */
+    background-color: rgb(89, 117, 24);
+    font-family: ubuntu;
+      box-shadow: 10px 10px 12px #a7a2a2
+}
+.bu{
+  display: flex;
+  justify-content: center;
+}
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  height: 70vh;
+  background-color: rgb(240, 150, 24);
+  padding-top: 45px;
+}
+.addr{
+  font-size: 22px;
+  font-family: Noto Sans;
+  font-weight: 400;
+}
+.emai{
+  font-size: 21px;
+  font-family: Noto Sans;
+  font-weight: 400;
+}
+.numbe{
+  color: rgb(89, 117, 24);
+  font-size: 21px;
+  font-family: Noto Sans;
+  font-weight: 600;
+}
+.left_div{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 258px;
+}
+.spy2 .spiced {
+  padding: 2px;
+  font-size: 18px;
+  /* letter-spacing: 20px; */
+  /* margin-left: 70px; */
+}
+.spy2 .spiced h1 {
+  letter-spacing: 5px;
+}
+.spy2 .spiced h2 {
+  letter-spacing: 10px;
+  font-size: 20px;
+}
+.cont{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.Quick{
+  font-size: 25px;
+    font-family: Noto Sans;
+    font-weight: 500;
+}
+.ter{
+  font-size: 19px;
+    font-family: Noto Sans;
+    /* font-weight: 500; */
+}
+.middle_div{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.terms{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.subscrib{
+ height: 62px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 13px;
+    width: 368px;
+    border-radius: 30px;
+    background-color: white;
+}
+.subs{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 126px;
+    font-size: 19px;
+    border-radius: 30px;
+    background-color: #87a41f;
+    font-family: Noto Sans;
+}
+.right_div{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.in{
+  display: flex;
+  justify-content: center;
 }
