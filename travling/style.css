@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+
+  width: 100%;
+}
+
+.container {
+  width: 400px;
+}
+.card {
+  position: absolute;
+  top: -40px;
+  left: 500px;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  width: 370px;
+  height: 350px;
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.3px);
+  -webkit-backdrop-filter: blur(5.3px);
+  border: 1px solid rgba(255, 255, 255, 0.02);
+}
+.silp{
+    margin-top: 35px;
+}

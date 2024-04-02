@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+}
+.main_head {
+  position: fixed;
+  /* background-color: #295b4d; */
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+.header_content {
+  /* position: fixed; */
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+  align-items: center;
+  color: #377b6a;
+  font-family: Jost;
+  font-weight: 500;
+  font-size: 15px;
+  gap: ;
+}
+.main_love {
+  height: 63vh;
+  /* width: 100%; */
+  background-image: url(https://themes.muffingroup.com/be/wedding3/wp-content/uploads/2022/08/wedding3-section-bg1.webp);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-bottom: 250px;
+}
+.wed {
+  display: flex;
+  justify-content: center;
+}
+.wed h6 {
+  color: #eaa48f;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  font-family: "Jost", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  letter-spacing: 7px;
+}
+.love h2 {
+  color: #eaa48f;
+  font-weight: 500;
+  letter-spacing: 0px;
+  /* font-size: 72px; */
+  /* line-height: 80px; */
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Cormorant Upright", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+    sans-serif;
+}
+.love {
+  /* background-position: center center; */
+  font-size: 7em;
+  line-height: 1em;
+  margin-bottom: 0;
+}
+.sub_love .flo img {
+  height: 150px;
+  width: 150px;
+  background-size: contain;
+  object-fit: cover;
+}
+.flo {
+  max-width: 150px;
+  margin-bottom: 0;
+}
+.is_in {
+  font-size: 7em;
+  line-height: 1em;
+  margin-bottom: 0;
+}
+.is_in h2 {
+  color: #295b4d;
+  font-weight: 500;
+  letter-spacing: 0px;
+  /* font-size: 72px; */
+  /* line-height: 80px; */
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Cormorant Upright", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+    sans-serif;
+}
+.sub_love {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+}
+.air {
+  display: flex;
+  justify-content: center;
+  font-size: 7em;
+  line-height: 1em;
+  margin-bottom: 0;
+}
+.air h2 {
+  color: #295b4d;
+  font-weight: 500;
+  letter-spacing: 0px;
+  font-size: 72px;
+  line-height: 80px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Cormorant Upright", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+    sans-serif;
+}
+.but {
+  display: flex;
+  justify-content: center;
+  padding: 38px;
+}
+.button {
+  width: 68px;
+  font-family: Jost;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  padding: 20px 40px 20px 40px;
+  border-width: 0px;
+  border-radius: 70px;
+  color: #ffffff;
+  background-color: #eaa48f;
+  border-color: transparent;
+}
+.backgro {
+  background-image: url(https://themes.muffingroup.com/be/wedding3/wp-content/uploads/2022/08/wedding3-section-bg2.webp);
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 100px;
+  padding-bottom: 220px;
+  margin-top: -200px;
+}
+.image_wrap {
+  display: flex;
+  justify-content: center;
+}
+.back_card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #295b4d;
+  padding-top: 60px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  width: 220px;
+  height: 261px;
+  z-index: 0;
+}
+.j_n {
+  color: #fff;
+  font-size: 120px;
+  line-height: 120px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  font-family: "Cormorant Upright", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+    sans-serif;
+  margin-bottom: 15px;
+}
+.card {
+  position: absolute;
+  top: 54rem;
+  left: 32rem;
+  width: 340px;
+  height: 381px;
+}
+/* .main_leaf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-width: 1px;
+  border-color: #295b4d;
+} */
+.inf .title {
+  /* text-align: center; */
+  margin-bottom: 0;
+  color: #295b4d;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  font-family: "Cormorant Upright", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+    sans-serif;
+}
+/* .leaf {
+  width: 40%;
+}
+.innerleaf {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 15px;
+  height: 20px;
+  border-width: 3px;
+} */
+.left {
+  width: 60px;
+  border-bottom: 1px solid #295b4d;
+}
+.right {
+  width: 60px;
+  border-bottom: 1px solid #295b4d;
+}
+.leaf {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  gap: 30px;
+  position: relative;
+  bottom: 227px;
+  left: 223px;
+}
+.INFO {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  gap: 30px;
+  position: relative;
+  bottom: 353px;
+  left: 51rem;
+}
