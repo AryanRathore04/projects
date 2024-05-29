@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wdth@0,62.5..100;1,62.5..100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 24%;
+}
+.upper {
+  background-color: #121212;
+  color: rgb(209, 209, 209);
+  width: 88%;
+  /* height: 14.5vh; */
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: Noto Sans ;
+  font-weight: 600;
+  display: flex;
+  /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 20px;
+    gap: 1rem;
+}
+.lower{
+    background-color: #121212;
+  color: rgb(168, 168, 168);
+  width: 93%;
+  height: 63vh;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: Noto Sans ;
+  /* font-weight: 600; */
+  display: flex;
+  /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 12px;
+    gap: 1rem;
+}
+.home, .search{
+    /* text-align: center; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1rem;
+}
+.home, .search, .Your_Library:hover{
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+
+.icon{
+font-size: 25px;
+}
+.library{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+.arrow-icon{
+    font-size: 18px;
+    color: #b3b3b3;
+    font-weight: 100;
+}
+.library .arrow-icon .plus{
+    font-size: 22px;
+    color: #b3b3b3;
+    margin-right: 15px;
+}
+.Your_Library{
+    display: flex;
+    /* flex-direction: ; */
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    line-height: 25px;
+    word-spacing: 2px;
+    font-size: 14px;
+    gap: 0.5rem;
+    font-weight: 600;
+}
+.playlist-content{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 0.5rem;
+    /* padding: 10px; */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 300;
+    color: white;
+}
+.playlist, .artist{
+    background-color: #232323;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+}
+.playlist, .artist:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: #3a3939;
+}
+.recent-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.recent-content .magni{
+    font-size: 15px;
+    color: #e2e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */ 
+}
+.recent-content .magni .mag-icon{
+    padding: 5px;
+}
+.recent-content .magni .mag-icon:hover{
+    transition: all 0.3s ease-in-out;
+    color: white;
+    background-color: #444444;
+    border-radius: 100%;
+    /* padding: 5px; */
+    /* padding: 5px; */
+
+    
+}
+.recent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    /* font-size: 14px; */
+    /* font-weight: 600; */
+    
+}
+.recent:hover{
+    transition: all 0.3s ease-in-out;
+    color: white;
+    font-size: 15px;
+}
+.liked-songs .img img{
+    width: 45px;
+    border-radius: 5px;
+}
+.liked-songs{
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 15px;
+}
+.liked-songs:hover{
+    background-color: #3534349a;
+}
+
+.scroll{
+    overflow: hidden;
+    height: 100%;
+    scrollbar-width: thin;
+    scroll-snap-type:mandatory;
+}
+/* .scroll::-webkit-scrollbar-button{
+    display: none;
+
+}
+.scroll::-webkit-scrollbar{
+    background-color: #121212;
+    width: 5px;
+    height: 5px;
+}
+.scroll::-webkit-scrollbar-thumb{
+    background-color: #444444;
+    border-radius: 10px;
+}
+.scroll::-webkit-scrollbar-thumb:hover{
+    background-color: #333333;
+} */
+/*  */
+
+.scroll {
+    padding: 10px;
+    overflow-y: scroll; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    max-height: 320px;  /* Example height */
+    position: relative;
+}
+
+/* WebKit-based browsers */
+/* Hide scrollbar initially */
+.scroll::-webkit-scrollbar {
+    width: 12px; /* Width for vertical scrollbar */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Dark background for scrollbar track */
+.scroll::-webkit-scrollbar-track {
+    background: #222; /* Dark background */
+}
+
+/* Style for the scrollbar thumb */
+.scroll::-webkit-scrollbar-thumb {
+    background-color: #444; /* Dark thumb color */
+    border-radius: 6px;
+}
+
+/* Show scrollbar on hover */
+.scroll:hover::-webkit-scrollbar {
+    opacity: 1;
+}
+
+/* Firefox scrollbar styling */
+.scroll {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent; /* Hide initially */
+}
+
+/* Show scrollbar on hover */
+.scroll:hover {
+    scrollbar-color: #444 #222; /* Dark thumb color, dark track color */
+}
+
+/* above code is generated from the chatgpt */
+
+
+
+
+.scroll:hover{
+    overflow-y: scroll;
+    transition: all 0.5s ease-in-out;
+
+}
+.art .img img{
+    width: 45px;
+    border-radius: 100%;
+}
+.art{
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 15px;
+}
+.liked{
+    color: white;
+}
+.songs{
+    font-size: 12px;
+}
