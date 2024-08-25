@@ -1,5 +1,33 @@
-body{
+body {
   background-color: black;
   color: white;
-  
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* height: 100vh; */
+}
+
+.spotify-image {
+  width: 200px;
+  height: 200px;
+  background-image: url('https://developer.spotify.com/images/guidelines/design/icon3@2x.png');
+  background-size: cover;
+}
+
+.login-form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.login-form button {
+  padding: 10px 20px;
+  background-color: #1db954;
+  color: white;
+  border: none;
+  cursor: pointer;
 }

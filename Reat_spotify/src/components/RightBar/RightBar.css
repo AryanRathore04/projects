@@ -1,5 +1,91 @@
-.container2{
-    width: 20%;
+.container2 {
+  width: 20%;
   background-color: #121212;
-    
+}
+.right-bar {
+  padding: 9px;
+  background-color: #121212; /* Spotify dark theme background */
+  color: white;
+  font-family: "Spotify Circular", Helvetica, Arial, sans-serif;
+  max-width: 300px; /* Adjust according to your layout */
+  overflow-y: scroll;
+  /* height: 100vh; Adjust according to your layout */
+  height: 81vh;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.right-bar img {
+  width: 200px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.right-bar h2 {
+  font-size: 20px;
+  margin: 10px 0 5px;
+}
+
+.right-bar h3 {
+  color: #b3b3b3;
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.right-bar p {
+  font-size: 14px;
+  color: #b3b3b3; /* Light grey text color */
+}
+
+.artist-info {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #181818; /* Slightly lighter than main background */
+  border-radius: 8px;
+}
+
+.artist-info h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.artist-info img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.artist-info .artist-header {
+  display: flex;
+  align-items: center;
+}
+
+.artist-info h4 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.artist-info p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.artist-info .monthly-listeners {
+  color: #b3b3b3; /* Light grey text color */
+}
+
+.artist-info .follow-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #1db954; /* Spotify green */
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.artist-info .follow-btn:hover {
+  background-color: #1ed760; /* Slightly lighter green on hover */
 }

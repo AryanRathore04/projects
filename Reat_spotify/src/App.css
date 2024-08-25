@@ -1,0 +1,14 @@
+.URL a{
+    color: #1DB954;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0 0.5em;
+    padding: 0.5em;
+    border: 1px solid #1DB954;
+    border-radius: 5px;
+    background-color: #1DB954;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}

@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 1.7rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* background-color: #333; */
+  /* color: white; */
+  /* padding: 10px 0; */
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 2.3rem;
+  padding: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+}
+nav ul li a{
+    text-decoration: none;
+    /* color: #333; */
+    color: black;
+    cursor: pointer; 
+}
+nav ul li a::after{
+    content: "";
+    display: block;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #e20000;
+    transition: width .3s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+nav ul li{
+    cursor: pointer;
+    /* padding: 5px; */
+}
+.buletin {
+  font-size: 28px;
+  font-weight: 900;
+  /* word-spacing: 43px; */
+  /* letter-spacing: 1px; */
+  color: #e20000;
+  font-family: Merriweather;
+}
+.right-header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+   font-size: 15px
+}
+.write{
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+}
